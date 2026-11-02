@@ -69,3 +69,8 @@ h1,h2,h3,h4{font-weight:700!important}
 @media(max-width:600px){.skills-feature{grid-template-columns:1fr}.skills-feature img{height:160px}.research-feature{grid-template-columns:1fr}.research-feature>img{height:170px;min-height:170px}.research-feature>span{padding:17px}.channel-banner{grid-template-columns:1fr}.channel-banner>img{height:210px;min-height:210px;object-position:center 32%}.channel-banner-copy{padding:20px}.channel-banner-copy h2{font-size:29px}.channel-description{align-items:flex-start;flex-direction:column;gap:15px}.video-grid{grid-template-columns:1fr}.video-card h3{min-height:0}.education-photo{height:170px}.page-heading h1{font-size:36px}.hero-statement{font-size:18px}.page-heading{margin-bottom:30px}}
 
 
+.home-study-image{grid-column:1/-1;width:100%;margin:4px 0 0;border:1px solid var(--line);background:#fff}
+.study-image{display:block;width:100%;height:clamp(165px,24vw,270px);object-fit:cover;object-position:center 58%}
+.home-study-image figcaption{padding:9px 11px;color:var(--muted);font-size:10px;letter-spacing:.12em;border-top:1px solid var(--line)}
+@media(max-width:600px){.home-study-image{order:2;margin-top:0}.study-image{height:170px}.home-study-image figcaption{font-size:9px}}
+
